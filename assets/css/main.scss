@@ -8,4 +8,16 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+.page__content {
+  max-width: 700px;
+  margin: auto;
+}
 
+.page__content h2 {
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.page__content p {
+  text-align: justify;
+}
