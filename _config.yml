@@ -332,3 +332,6 @@ defaults:
 
 sass:
   sass_dir: _sass
+
+head_scripts:
+  - /assets/css/custom.css
