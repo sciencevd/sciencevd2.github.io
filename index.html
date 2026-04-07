@@ -5,4 +5,25 @@ page.header.overlay_color: blue
 ---
 
 
-bla bla bla
+header:
+  overlay_image: https://mmistakes.github.io/minimal-mistakes/assets/images/unsplash-gallery-image-1.jpg
+  overlay_filter: 0.5
+  caption: "A flexible Jekyll theme"
+
+intro:
+  - excerpt: "Bla Bla Bla Minimal Mistakes is a flexible two-column Jekyll theme."
+
+feature_row:
+  - image_path: https://mmistakes.github.io/minimal-mistakes/assets/images/unsplash-gallery-image-2.jpg
+    title: "Mathematical meaning"
+    excerpt: "Discover the mathematical idea behind the StoKaChic jewels"
+  - image_path: https://mmistakes.github.io/minimal-mistakes/assets/images/unsplash-gallery-image-3.jpg
+    title: "From abstract math to jewels"
+    excerpt: "Discover the fabric steps"
+  - image_path: https://mmistakes.github.io/minimal-mistakes/assets/images/unsplash-gallery-image-4.jpg
+    title: "Collection"
+    excerpt: "Series and personnalized jewel pieces"
+---
+
+{% include feature_row id="intro" type="center" %}
+{% include feature_row %}
